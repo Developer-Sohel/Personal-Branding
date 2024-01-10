@@ -45,7 +45,7 @@ nav{
 }
 nav ul{
   display: flex;
-  position: sticky;
+  
 }
 nav ul li a{
 margin-left: 40px;
@@ -168,8 +168,7 @@ button{
 }
 .hero-img img:hover{
   /* transform: scale(0.8); */
-  transform: scale(1.1) rotate(360deg);
-}
+  transform: scale(1.2);}
 
 .social i{
 font-size: 30px;

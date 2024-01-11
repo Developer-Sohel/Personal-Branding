@@ -33,7 +33,9 @@ body {
 .nav-bar{
   background-color: #0B1221;
   height: 65px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
 }
+
 
 nav{
   display: flex;
@@ -101,12 +103,19 @@ button{
   font-size: 18px;
   font-weight: 600;
   letter-spacing: 0.7px;
+  transition: 2es all;
 }
+button:hover{
+  background-color: tomato;
+  
+}
+
 
 /* nav-section end */
 
 .hero-section{
   background-color: #171739;
+ border-bottom: 1px solid rgba(0, 0, 0, 0.688);
 }
 .hero-design{
   display: grid;
@@ -184,5 +193,99 @@ transition: all 0.3s linear;
 }
 .social i:hover{
   transform: scale(1.5);
+
+}
+
+
+/* About section */
+
+
+#About{
+  background-color: #0F172A;
+  height: 700px;
+  padding-top: 70px;
+  
+}
+
+.about-me{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.about-img img{
+  height: 500px;
+  background-color: #020c25;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-top-right-radius: 50%;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.about-title{
+  color: #ffffff;
+  font-size: 22px;
+  font-weight:600;
+  letter-spacing: 0.5px;
+  word-spacing: 1.5px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.about-title span{
+  color: aqua;
+}
+.about-info h1{
+  font-size: 37px;
+  font-weight: 700;
+  word-spacing: 1.5px;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+.about-info h1  span{
+  color: aqua;
+}
+
+.about-info h3{
+  font-size: 25px;
+  font-weight: 600;
+  word-spacing: 1.5px;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+.about-info h3 span{
+  color: aqua;
+}
+
+.about-info p{
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+ color: #8F9DB2;
+ margin-bottom: 10px;
+}
+
+.expe-box{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+ 
+}
+.e-box{
+  background-color: #8f9db29f;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  text-align: center;
+  border-radius: 20px;
+  margin-right: 10px;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+
+.e-box h1{
+  font-size: 30px;
+  font-weight: 700;
+  color: aqua;
+}
+.e-box h3{
+  font-size: 20px;
+  color: #ffffff;
 
 }
